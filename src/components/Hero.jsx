@@ -63,7 +63,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden pt-20">
       {/* Unique Morphing Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gradient-to-br from-accent-400 to-accent-600 rounded-full opacity-20 blur-2xl animate-morphing-float" />
@@ -81,7 +81,7 @@ const Hero = () => {
                   src={shaKrishnaPhoto}
                   alt="Sha Krishna"
                   className="w-full h-full object-cover object-center"
-                  style={{ objectPosition: 'center 35%' }}
+                  style={{ objectPosition: 'center top' }}
                 />
               </div>
               <div className="absolute -inset-1 bg-gradient-to-r from-accent-500 to-accent-600 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-500 blur-sm" />
